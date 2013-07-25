@@ -8673,7 +8673,35 @@
                               ]
                           ]
         },
-
+        {
+            "result": "heatpack",
+            "category": "CC_MISC",
+            "skill_pri": "cooking",
+            "difficulty": 0,
+            "time": 10000,
+            "reversible": false,
+            "autolearn": true,
+            "tools": [
+                         [
+                             ["hotplate", 5],
+                             ["toolset", 1],
+                             ["fire", -1]
+                         ],
+                         [
+                             ["pot", -1],
+                             ["rock_pot", -1]
+                         ]
+                     ],
+            "components": [
+                              [
+                                  ["water", 1],
+                                  ["water_clean", 1]
+                              ],
+                              [
+                                  ["heatpack_used", 1]
+                              ]
+                          ]
+        },
 
         {
             "result": "steel_lump",
